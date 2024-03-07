@@ -1,5 +1,6 @@
 package runners;
 
+import config.ConfigYaml;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import managers.WebDrivenSingleton;
@@ -17,11 +18,9 @@ import java.util.Map;
         tags = "@search-exercise"
 )
 public class AuthRunner extends AbstractTestNGCucumberTests {
-    private Yaml yaml = new Yaml();
-    private InputStream inputStream = AuthRunner.class.getClassLoader().getResourceAsStream("configuration.yml");
-    private Map<String, String> obj = yaml.load(inputStream);
+    private ConfigYaml configYaml = new ConfigYaml();
 
-    private final String BASE_URL = obj.get("base-url");
+    private final String BASE_URL = configYaml.getBaseUrl();
     private final WebDriver driver = WebDrivenSingleton.getInstance();
 
     @BeforeTest

@@ -5,28 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="161fb3ea-ad57-4bf1-9328-38dc353c5a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/w3school/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/ConfigYaml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/managers/WebDrivenSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ConfirmationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/SingUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/YopmailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/AuthRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ExercisesSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/authSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/loginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configuration.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/exercise.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/register.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/ConfigYaml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/ConfigYaml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/ConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ConfirmationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/SingUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/SingUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/YopmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/YopmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/AuthRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/AuthRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ExercisesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RExercisesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/authSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AuthSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/loginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configuration.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/register.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/LENOVO/IdeaProjects/SELENIUM-PROJECT/src/test/java/stepDefinitions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/IdeaProjects/SELENIUM-PROJECT/src/test/java/stepDefinitions&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LENOVO\IdeaProjects\SELENIUM-PROJECT\src\test\resources\features" />
@@ -105,7 +100,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708082890803</updated>
-      <workItem from="1708082892856" duration="81382000" />
+      <workItem from="1708082892856" duration="128341000" />
+      <workItem from="1708939357304" duration="1185000" />
+      <workItem from="1708957284450" duration="755000" />
+      <workItem from="1709798301128" duration="1002000" />
     </task>
     <servers />
   </component>

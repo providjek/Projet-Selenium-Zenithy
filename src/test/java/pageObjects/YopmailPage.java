@@ -2,7 +2,9 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.yaml.snakeyaml.Yaml;
 import runners.AuthRunner;
 import utils.Tools;
@@ -23,6 +25,8 @@ public class YopmailPage extends Page{
     private WebElement btnConfYp;
     @FindBy(css = "iframe#ifinbox")
     private WebElement iframeElement;
+    @FindBy(className = "lmf")
+    private List<WebElement> email_msg_all;
     private final String  EMAIL_YP = "provi-testeur";
     private Tools tools = new Tools();
 
@@ -37,8 +41,7 @@ public class YopmailPage extends Page{
     }
     public void openAMessageInYp(String sender){
         this.driver.switchTo().frame(this.iframeElement);
-        List<WebElement> email_msg_all = this.driver.findElements(By.className("lmf"));
-        for (WebElement element : email_msg_all) {
+        for (WebElement element : this.email_msg_all) {
             if (element.getText().contains(sender)){
                 element.click();
                 break;

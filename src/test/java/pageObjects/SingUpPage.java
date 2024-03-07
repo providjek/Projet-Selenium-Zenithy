@@ -77,13 +77,5 @@ public class SingUpPage extends Page{
         }
 
 
-        @And("Je devrais être redirigé vers la page d'accueil")
-        public void jeDevraisÊtreRedirigéVersLaPageDAccueil() {
-            this.driver.switchTo().window(this.idTabSing);
-            WebDriverWait wait = new WebDriverWait(this.driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.urlContains(this.obj.get("auth-url")));
-            Assert.assertEquals(this.driver.getCurrentUrl(), this.obj.get("auth-url"), "La redirection vers la page d'accueil a échouée");
-        }
-
 
 }

@@ -5,14 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Tools;
 
-import java.time.Duration;
 
-public class ConfirmationPage {
+public class ConfirmationPage extends Page {
     @FindBy(css = "div.Alert_iwrp__5q1xH.Alert_success__g430w")
     private WebElement alerteMsg;
     private final By ALERT_MSG = By.cssSelector("div.Alert_iwrp__5q1xH.Alert_success__g430w");
