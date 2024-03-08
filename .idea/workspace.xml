@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="161fb3ea-ad57-4bf1-9328-38dc353c5a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/ConfigYaml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/ConfigYaml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/ConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ConfirmationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/SingUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/SingUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/YopmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/YopmailPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/AuthRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/AuthRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ExercisesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RExercisesSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/authSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AuthSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/loginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configuration.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/register.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +89,7 @@
       <workItem from="1708082892856" duration="128341000" />
       <workItem from="1708939357304" duration="1185000" />
       <workItem from="1708957284450" duration="755000" />
-      <workItem from="1709798301128" duration="1002000" />
+      <workItem from="1709798301128" duration="6083000" />
     </task>
     <servers />
   </component>

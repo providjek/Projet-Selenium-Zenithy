@@ -15,7 +15,11 @@ import java.util.Map;
 @CucumberOptions(
         features = "./src/test/resources/features",
         glue = {"stepDefinitions"},
-        tags = "@search-exercise"
+        tags = "@search-exercise",
+        plugin = {
+                "pretty",
+                "html:target/cucumber—reports"
+        }
 )
 public class AuthRunner extends AbstractTestNGCucumberTests {
     private ConfigYaml configYaml = new ConfigYaml();
